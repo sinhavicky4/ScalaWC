@@ -1,10 +1,9 @@
 # ScalaWC
 # Word Count Program in scala
 
-Create jar of the program.
+1.  Create jar of the program.
 
-Use below to run you jar in cluster
+2.  Use below to run you jar in cluster
+      spark-submit --class CountWord ScalaWC.jar /root/Desktop/inputtext.txt /root/Desktop/wcout
 
-spark-submit --class com.WordCount WordCount.jar /root/Desktop/inputtext.txt /root/Desktop/out
-
-3.Check the output file
+3.  Check the output file
